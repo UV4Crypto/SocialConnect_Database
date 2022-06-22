@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wallet Connect</title>
+   
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.7.0/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@web3auth/web3auth@0.2.2/dist/web3auth.umd.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+  </head>
+
+  <body>
+    <h1>Connect to Wallet</h1>
+
+  address :<div id="address"></div>
+  balance :<div id="balance"></div>
+  Music Coin :<div id="mcoin"></div>
+  
+  <button id="login">Login</button>
+  <button id="logout">Logout</button>
+  <div>
+  <button id="song1" onclick="song()">song</button>
+  <!-- <button id="song">song2</button>
+  <button id="song">song3</button>
+  <button id="song">song4</button>
+  <button id="song">song5</button> -->
+</div>
+
+  <script type="text/javascript" src="/main.js"></script>
+
+    <script type="text/javascript" src="/firestoreconfig.js"></script>
+    
+  </body>
+</html>
